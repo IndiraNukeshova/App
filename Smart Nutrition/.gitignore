@@ -1,0 +1,16 @@
+.DS_Store
+build/
+DerivedData/
+
+xcuserdata/
+*.xcuserstate
+
+.build/
+Packages/
+Package.resolved
+
+Pods/
+*.xcworkspace
+
+*.log
+*.xcarchive
