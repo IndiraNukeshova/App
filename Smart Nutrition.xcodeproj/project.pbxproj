@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B63CD2BE2F9677E900B29EC8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B63CD2BD2F9677E900B29EC8 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B6A703C02F912BC700F06C7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,15 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B63CD2BD2F9677E900B29EC8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B6A703B22F912BC500F06C7B /* Smart Nutrition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Nutrition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A703BF2F912BC700F06C7B /* Smart NutritionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart NutritionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A703C92F912BC800F06C7B /* Smart NutritionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart NutritionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B6A703B42F912BC500F06C7B /* Smart Nutrition */ = {
+		B6A703B42F912BC500F06C7B /* Smart nutrition */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Smart Nutrition";
+			path = "Smart nutrition";
 			sourceTree = "<group>";
 		};
 		B6A703C22F912BC800F06C7B /* Smart NutritionTests */ = {
@@ -75,10 +80,11 @@
 		B6A703A92F912BC500F06C7B = {
 			isa = PBXGroup;
 			children = (
-				B6A703B42F912BC500F06C7B /* Smart Nutrition */,
+				B6A703B42F912BC500F06C7B /* Smart nutrition */,
 				B6A703C22F912BC800F06C7B /* Smart NutritionTests */,
 				B6A703CC2F912BC800F06C7B /* Smart NutritionUITests */,
 				B6A703B32F912BC500F06C7B /* Products */,
+				B63CD2BD2F9677E900B29EC8 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +114,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B6A703B42F912BC500F06C7B /* Smart Nutrition */,
+				B6A703B42F912BC500F06C7B /* Smart nutrition */,
 			);
 			name = "Smart Nutrition";
 			packageProductDependencies = (
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63CD2BE2F9677E900B29EC8 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
